@@ -53,6 +53,3 @@ API Endpoints
 POST /translate: Receives video/landmarks and returns the predicted sentence.
 GET /docs: Interactive Swagger documentation.
 
-
-
-GET /docs: Interactive Swagger documentation.
