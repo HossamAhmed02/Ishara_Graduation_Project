@@ -43,6 +43,8 @@ Assets/
 │── Scenes/
 │── Scripts/
 │   │── WordAssets/
+│   │   │── WordData.asset
+│   │
 │   │── WordPassLoader.cs
 │   │── WordPlayer.cs
 │   │── WordsData.cs
