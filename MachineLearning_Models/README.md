@@ -8,7 +8,7 @@ This folder contains the core intelligence of the **Ishara** project. It include
 ##  Large Files Access (Google Drive)
 Due to size limits, the heavy model files must be downloaded from Google Drive and placed in their respective folders as shown below:
 
-🔗 **[Download Models & Weights from Google Drive](LINK_HERE)**
+🔗 **[Download Models & Weights from Google Drive](https://drive.google.com/drive/folders/1gA8WJQbAjMX5PAX0Fa-nUOYYWrGePYdl?usp=sharing)**
 
 ### Required Folders from Drive:
 * **LSTM_weights/** — Contains the trained LSTM weights (`.pt` file).
