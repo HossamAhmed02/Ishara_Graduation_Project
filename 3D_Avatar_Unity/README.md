@@ -28,8 +28,9 @@ This module integrates animated 3D characters, gesture visualization, and real-t
 |  |  |  |
 
 ## Project Structure
+## Project Structure
 
-Assets
+```bash
 Assets/
 │── Example/
 │── FlutterEmbed/
@@ -44,7 +45,7 @@ Assets/
 │── InputSystem_Actions.inputactions
 │── Readme.asset
 │── SignAnimator.controller
-
+```
 ## Main Responsibilities
 
 1. User Input (Flutter)
