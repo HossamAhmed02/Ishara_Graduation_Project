@@ -8,7 +8,6 @@ This module integrates animated 3D characters, gesture visualization, and real-t
 
 - 3D avatar animations for sign language gestures
 - Real-time gesture visualization
-- Smooth UI/UX integration with the mobile application
 
 ## Technologies Used
 
@@ -87,7 +86,7 @@ Assets/
     
     ```python
     void Start()    {     
-       string testJson = "{\"gloss\":\"hello how are you\"}";   
+       string testJson = "{\"gloss\":\"heelo\"}";   
             ReceiveGloss(testJson); 
                }
     ```
