@@ -26,6 +26,7 @@ This module integrates animated 3D characters, gesture visualization, and real-t
 |  |  |  |
 
 
+
 ## Project Structure
 
 ```bash
@@ -33,9 +34,19 @@ Assets/
 │── Example/
 │── FlutterEmbed/
 │── Motion/
+│   │── after.anim
+│   │── again.anim
+│   │── bad.anim
+│   │── ...
+│
 │── Resources/
 │── Scenes/
 │── Scripts/
+│   │── WordAssets/
+│   │── WordPassLoader.cs
+│   │── WordPlayer.cs
+│   │── WordsData.cs
+│
 │── Settings/
 │── Textures/
 │── TutorialInfo/
