@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb61c6cacd97ae4d9d0167730ac2c35, type: 3}
+  m_Name: WordData
+  m_EditorClassIdentifier: 
+  words:
+  - 
+  - after
+  - again
+  - bad
+  - bathroom
+  - before
+  - big
+  - book
+  - bye
+  - call
+  - gold
+  - come
+  - cool
+  - day
+  - different
+  - doctor
+  - drink
+  - eat
+  - family
+  - fast
+  - father
+  - feel
+  - fine
+  - finish
+  - 'first '
+  - food
+  - friend
+  - full
+  - give
+  - go
+  - good
+  - happy
+  - have
+  - hello
+  - help
+  - hot
+  - house
+  - how
+  - know
+  - language
+  - last
+  - learn
+  - like
+  - make
+  - man
+  - many
+  - me
+  - money
+  - more
+  - mother
+  - my
+  - name
+  - need
+  - no
+  - now
+  - peaple
+  - play
+  - please
+  - read
+  - run
+  - sad
+  - same
+  - school
+  - see
+  - show
+  - sick
+  - sign
+  - slow
+  - small
+  - sorry
+  - study
+  - teach
+  - tell
+  - thank you
+  - think
+  - time
+  - tired
+  - today
+  - tomorrow
+  - understand
+  - wait
+  - walk
+  - want
+  - water
+  - week
+  - what
+  - when
+  - where
+  - which
+  - who
+  - why
+  - woman
+  - work
+  - write
+  - wrong
+  - year
+  - yes
+  - yesterday
+  - you
+  - your
