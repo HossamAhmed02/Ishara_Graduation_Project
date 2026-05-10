@@ -19,7 +19,6 @@ This module integrates animated 3D characters, gesture visualization, and real-t
 | **Blender** | 3.6 LTS | Editing motion of Avatar & FBX export  |
 | **DeepMotion** | — | Source of FBX motion capture animation files |
 | **FBX Format** | — | Animation clip format for all 100 ASL signs |
-| **Legacy Animation System** | Built-in | Runtime clip playback via `Animation` component |
 | **flutter_embed_unity 2.0.0** |  | Embedding Unity view inside Flutter (Android) |
 | **Google Drive** | — | Hosting FBX animation files |
 | **Animator Controller** | — | State machine بـ `signID` integer parameter |
@@ -27,7 +26,7 @@ This module integrates animated 3D characters, gesture visualization, and real-t
 | **JsonUtility** | — | Parse the JSON coming from Flutter |
 |  |  |  |
 
-## Project Structure
+
 ## Project Structure
 
 ```bash
