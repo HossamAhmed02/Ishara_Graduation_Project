@@ -33,8 +33,7 @@
 31. HAPPY  
 32. HAVE  
 33. HELLO  
-34. HELP  
-35. HOT  
+34. HELP   
 36. HOUSE  
 37. HOW  
 38. KNOW  
@@ -72,7 +71,6 @@
 70. STUDY  
 71. TEACH  
 72. TELL  
-73. THANK YOU  
 74. THINK  
 75. TIME  
 76. TIRED  
