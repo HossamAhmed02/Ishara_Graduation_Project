@@ -46,7 +46,7 @@ After downloading the files from Drive, your local directory must look like this
     └── generation_config.json             <-- [Download from Drive]
 
 
-2. Installation
+2.Installation
 ```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
