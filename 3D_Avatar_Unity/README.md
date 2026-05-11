@@ -86,7 +86,7 @@ Assets/
     
     ```python
     void Start()    {     
-       string testJson = "{\"gloss\":\"heelo\"}";   
+       string testJson = "{\"gloss\":\"hello , i am going to school\"}";   
             ReceiveGloss(testJson); 
                }
     ```
