@@ -1,4 +1,3 @@
-```markdown
 # Ishara App - Sign Language Translator
 
 ## Project Overview
