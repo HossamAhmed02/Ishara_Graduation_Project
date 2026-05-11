@@ -25,61 +25,152 @@ The application includes:
 
 # Project Structure
 
-## UI & Screens
-
-The application contains multiple UI screens including:
-
-* Splash Screen
-* Login Screen
-* Create Account Screen
-* Home Screen
-* Chat List Screen
-* Chat Screen
-* Live Chat Screen
-* Avatar Screen
-* Settings Screen
+ishara/
+├── assets/
+│   ├── images/
+│   │   ├── videoCamera.png
+│   │   ├── group.png
+│   │   ├── messaging.png
+│   │   ├── question.png
+│   │   ├── avatar.jpeg
+│   │   └── avatar2.png
+│   ├── models/
+│   │   └── all_signs.glb          
+│   └── fonts/
+│       ├── Fraunces_72pt-Regular.ttf
+│       ├── Fraunces_72pt-Bold.ttf
+│       └── Fraunces_72pt-Light.ttf
+│
+└── lib/
+    ├── main.dart
+    │
+    ├── core/
+    │   ├── constants/
+    │   │   ├── api_constants.dart       
+    │   │   └── constants.dart           
+    │   ├── network/
+    │   │   └── api_client.dart          
+    │   ├── services/
+    │   │   └── token_service.dart       
+    │   ├── theme/
+    │   │   └── theme.dart               
+    │   └── widgets/
+    │       ├── custom_textfield.dart    
+    │       ├── help_button.dart         
+    │       └── primary_button.dart      
+    │
+    └── features/
+        │
+        ├── auth/
+        │   ├── cubit/
+        │   │   ├── login_cubit.dart
+        │   │   ├── login_state.dart
+        │   │   ├── register_cubit.dart
+        │   │   ├── register_state.dart
+        │   │   ├── forgot_password_cubit.dart
+        │   │   ├── forgot_password_state.dart
+        │   │   ├── reset_password_cubit.dart
+        │   │   ├── reset_password_state.dart
+        │   │   ├── verify_otp_cubit.dart
+        │   │   ├── verify_otp_state.dart
+        │   │   ├── verify_reset_otp_cubit.dart
+        │   │   └── verify_reset_otp_state.dart
+        │   ├── data/
+        │   │   ├── models/
+        │   │   │   ├── login_request.dart
+        │   │   │   ├── login_response.dart
+        │   │   │   ├── register_request.dart
+        │   │   │   ├── register_response.dart
+        │   │   │   ├── forgot_password_request.dart
+        │   │   │   ├── forgot_password_response.dart
+        │   │   │   ├── reset_password_request.dart
+        │   │   │   ├── reset_password_response.dart
+        │   │   │   ├── verify_otp_request.dart
+        │   │   │   ├── verify_otp_response.dart
+        │   │   │   ├── verify_reset_otp_request.dart
+        │   │   │   ├── verify_reset_otp_response.dart
+        │   │   │   ├── refresh_token_request.dart
+        │   │   │   └── refresh_token_response.dart
+        │   │   └── repositories/
+        │   │       └── auth_repository.dart   
+        │   └── pages/
+        │       ├── login.dart                 
+        │       ├── create_account.dart        
+        │       ├── forgot_password.dart       
+        │       ├── otp_for_signup.dart        
+        │       ├── otp_screen.dart            
+        │       ├── reset_password.dart        
+        │       └── reset_successful.dart      
+        │
+        ├── home/
+        │   ├── cubit/
+        │   │   ├── profile_cubit.dart
+        │   │   └── profile_state.dart
+        │   ├── models/
+        │   │   └── profile_models.dart
+        │   └── pages/
+        │       ├── splash_screen.dart        
+        │       ├── home.dart                  
+        │       ├── starting_chat.dart         
+        │       └── settings.dart              
+        │
+        ├── avatar/
+        │   ├── cubit/
+        │   │   ├── avatar_cubit.dart
+        │   │   └── avatar_state.dart
+        │   ├── services/
+        │   │   └── api_service.dart          
+        │   └── pages/
+        │       └── avatar_screen.dart         
+        │
+        ├── live_chat/
+        │   ├── cubit/
+        │   │   ├── translation_cubit.dart
+        │   │   └── translation_state.dart
+        │   └── pages/
+        │       └── live_chat.dart           
+        │
+        └── messaging/
+            ├── cubit/
+            │   ├── chat_cubit.dart
+            │   ├── chat_list_cubit.dart
+            │   ├── contacts_cubit.dart
+            │   ├── contacts_state.dart
+            │   ├── search_contacts_cubit.dart
+            │   └── search_contacts_state.dart
+            ├── data/
+            │   ├── models/
+            │   │   ├── contact_model.dart
+            │   │   ├── message_model.dart
+            │   │   └── user_model.dart
+            │   ├── repositories/
+            │   │   └── contacts_repository.dart
+            │   └── services/
+            │       ├── messages_api_service.dart  
+            │       └── signalr_service.dart       
+            └── pages/
+                ├── chat_list_screen.dart           
+                └── chat_screen.dart                
 
 ---
+## Configuration & Setup
+Prerequisites
 
+* Flutter SDK ^3.11.0
+* Dart SDK ^3.11.0
+* Android Studio or VS Code
+* A running instance of the Ishara Backend API
+---
 # Technologies Used
-
-## Framework
-
 * Flutter
-
-## Programming Language
-
 * Dart
-
-## State Management
-
 * flutter_bloc ^8.1.6
-
-## Networking
-
-* dio ^5.7.0
-* http ^1.2.1
-
-## Real-time Communication
-
 * signalr_netcore ^1.3.6
-
-## Local Storage
-
 * shared_preferences ^2.2.2
-
-## 3D & Avatar Integration
-
 * flutter_embed_unity ^1.3.1
 * flutter_embed_unity_6000_0_android ^1.2.2
 * o3d ^3.1.3
-
-## Camera Integration
-
 * camera ^0.12.0
-
-## Fonts & UI
-
 * google_fonts ^8.0.2
 
 ---
@@ -110,8 +201,6 @@ dev_dependencies:
 
   flutter_lints: ^6.0.0
 ```
-
----
 
 # Technical Features
 
@@ -205,11 +294,3 @@ The UI was designed to work across multiple mobile screen sizes using:
 * MediaQuery
 * Flexible / Expanded widgets
 * Responsive spacing techniques
-
-## Configuration & Setup
-Prerequisites
-
-* Flutter SDK ^3.11.0
-* Dart SDK ^3.11.0
-* Android Studio or VS Code
-* A running instance of the Ishara Backend API
