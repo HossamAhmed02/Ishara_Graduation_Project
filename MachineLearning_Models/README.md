@@ -44,7 +44,7 @@ After downloading the files from Drive, your local directory must look like this
     ├── model.safetensors                  <-- [Download from Drive]
     ├── tokenizer.json                     <-- [Download from Drive]
     └── generation_config.json             <-- [Download from Drive]
-
+```
 
 2.Installation
 ```bash
