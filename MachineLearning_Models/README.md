@@ -15,11 +15,13 @@ Due to size limits, the heavy model files must be downloaded from Google Drive a
 * **model_qwen_files/** — Contains the Qwen NLP model files.
 
 ---
-
-##  Technical Stack
-* **Architecture:** Dual-Stream LSTM for 3D landmark processing.
-* **Accuracy:** Reached **66%** on complex ASL datasets.
-* **Linguistic Refinement:** Integrated **SpaCy** and **Qwen LLM** for grammatical sentence construction.
+### Technical Stack
+* **Deep Learning Framework:** `PyTorch` (Used for the Dual-Stream LSTM architecture).
+* **Computer Vision:** `MediaPipe Holistic` (For 3D landmark extraction: Face, Hands, and Pose).
+* **NLP & Language Modeling:** * `Qwen LLM`: For natural sentence generation.
+    * `SpaCy` & `contextualSpellCheck`: For grammatical refinement[cite: 2].
+* **Backend API:** `FastAPI` & `Uvicorn`[cite: 2].
+* **Data Processing:** `NumPy` & `Pandas`[cite: 2]
 ---
 
 ## Setup & Execution Guide
@@ -35,9 +37,9 @@ After downloading the files from Drive, your local directory must look like this
 │   └── model_utils.py                    <-- [Training logic & Model helpers]
 ├── mapping/
 │   └── sign_to_prediction_index_map.json
-├── LSTM_weights/           
+├── LSTM_weights/                          <-- [Place .pt file here]
 │   └── best_asl_model_avg_66_modified.pt  <-- [Download from Drive]
-└── model_qwen_files/       
+└── model_qwen_files/                      <-- [Place Qwen files here]
     ├── config.json                        <-- [Download from Drive]
     ├── model.safetensors                  <-- [Download from Drive]
     ├── tokenizer.json                     <-- [Download from Drive]
@@ -45,13 +47,13 @@ After downloading the files from Drive, your local directory must look like this
 
 
  2. Installation
-Bash
+```Bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 
 
 3. Local Inference
-Bash
+```Bash
 uvicorn main:app --host 0.0.0.0 --port 8000
 
 
