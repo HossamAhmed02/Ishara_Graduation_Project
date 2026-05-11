@@ -23,8 +23,8 @@ The application includes:
 
 ---
 
-# Project Structure
-
+## Project Structure
+```
 ishara/
 ├── assets/
 │   ├── images/
@@ -151,7 +151,8 @@ ishara/
             └── pages/
                 ├── chat_list_screen.dart           
                 └── chat_screen.dart                
-
+...
+```
 ---
 ## Configuration & Setup
 Prerequisites
