@@ -76,7 +76,7 @@ Assets/
 - Android Build Support module installed in Unity Hub
 - **flutter_embed_unity 2.0.0** package must be installed in the Unity project
     - ([flutter_embed_unity | Flutter package](https://pub.dev/packages/flutter_embed_unity))
-- **Assets \ Packages \ ProjectSettings** from our GitHub
+- **get Assets \ Packages \ ProjectSettings** from our GitHub
 
 ## Running the Project
 
