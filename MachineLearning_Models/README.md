@@ -47,8 +47,7 @@ After downloading the files from Drive, your local directory must look like this
 
 
 2. Installation
-```Bash
-
+```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
