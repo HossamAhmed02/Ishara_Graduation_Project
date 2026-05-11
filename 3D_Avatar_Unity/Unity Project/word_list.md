@@ -8,8 +8,7 @@
 6. BIG  
 7. BOOK  
 8. BYE  
-9. CALL  
-10. COLD  
+9. CALL    
 11. COME  
 12. COOL  
 13. DAY  
@@ -23,7 +22,6 @@
 21. FEEL  
 22. FINE  
 23. FINISH  
-24. FIRST  
 25. FOOD  
 26. FRIEND  
 27. FULL  
@@ -31,7 +29,6 @@
 29. GO  
 30. GOOD  
 31. HAPPY  
-32. HAVE  
 33. HELLO  
 34. HELP   
 36. HOUSE  
@@ -39,8 +36,7 @@
 38. KNOW  
 39. LANGUAGE  
 40. LAST  
-41. LEARN  
-42. LIKE  
+41. LEARN   
 43. MAKE  
 44. MAN  
 45. MANY  
@@ -51,9 +47,7 @@
 50. MY  
 51. NAME  
 52. NEED  
-53. NO  
-54. NOW  
-55. PEOPLE  
+54. NOW    
 56. PLAY  
 57. PLEASE  
 58. READ  
