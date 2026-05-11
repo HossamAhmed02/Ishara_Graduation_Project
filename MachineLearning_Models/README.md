@@ -50,11 +50,13 @@ After downloading the files from Drive, your local directory must look like this
 ```Bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
+```
 
 
 3. Local Inference
 ```Bash
 uvicorn main:app --host 0.0.0.0 --port 8000
+```
 
 
 API Endpoints
