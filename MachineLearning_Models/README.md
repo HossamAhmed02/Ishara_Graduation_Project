@@ -53,6 +53,8 @@ python -m spacy download en_core_web_sm
 ```
 
 
+
+
 3. Local Inference
 ```Bash
 uvicorn main:app --host 0.0.0.0 --port 8000
@@ -60,6 +62,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 
 API Endpoints
+
 POST /translate: Receives video/landmarks and returns the predicted sentence.
 GET /docs: Interactive Swagger documentation.
 
