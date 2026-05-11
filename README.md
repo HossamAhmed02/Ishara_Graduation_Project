@@ -1,3 +1,4 @@
+```markdown
 # Ishara App - Sign Language Translator
 
 ## Project Overview
@@ -19,7 +20,9 @@
 ## Setup Instructions
 
 ### 1. Run the Backend API (.NET 8)
-Navigate to the `Backend_DotNet/Ishara.Api` directory. Rename `appsettings.Example.json` to `appsettings.json` and configure your SQL Server connection string and JWT keys.
+Navigate to the `Backend_DotNet/Ishara.Api` directory. Rename `appsettings.Example.json` to `appsettings.json`. 
+
+**Important:** Open the newly created `appsettings.json` file and modify the values inside it to match your local environment. You must update your SQL Server connection string, JWT keys, and email settings.
 
 Run the following commands to apply migrations and start the server:
 
@@ -31,13 +34,19 @@ dotnet run
 
 ### 2. Start the AI Engine (FastAPI)
 
-Download the required heavy model files from the Google Drive link (provided below). Place the `.pt` file in `LSTM_weights/` and the NLP files in `model_qwen_files/`.
+Download the required heavy model files and testing data from the Google Drive links (provided below). Place the `.pt` file in `LSTM_weights/` and the NLP files in `model_qwen_files/`.
 
-Open a terminal inside the `MachineLearning_Models` folder and run:
+Open a terminal inside the `MachineLearning_Models` folder and install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
+
+```
+
+Once the dependencies are installed, start the server:
+
+```bash
 uvicorn main:app --host 0.0.0.0 --port 8000
 
 ```
@@ -58,6 +67,12 @@ flutter run
 
 ---
 
+## Testing & Sample Data
+
+To test the AI Engine and simulate real inputs, we have provided sample testing data on the AI Drive. You can download the sample data from the Google Drive link below and use it to test the application's recognition and translation capabilities.
+
+---
+
 ## Troubleshooting
 
 * **Database Connection Error:** Verify your SQL Server instance is running and the connection string in `appsettings.json` is correct.
@@ -70,6 +85,7 @@ flutter run
 ## Links and Resources
 
 * **AI Models & Weights (Google Drive):** [Download Here](https://drive.google.com/drive/folders/1gA8WJQbAjMX5PAX0Fa-nUOYYWrGePYdl?usp=drive_link)
+* **AI Testing Sample Data (Google Drive):** [https://drive.google.com/drive/folders/187nqxSs5kAV38IVJMO8evVC51BbPjx-L]
 * **App APK (Download & Test):** [Download APK](https://drive.google.com/file/d/1YC2bFSioGLBTUhhEOziVkcIlIrBwRRCA/view)
 
 ---
