@@ -1,6 +1,6 @@
 **Supported Sign Words**
 
-1. AFTER  
+ AFTER  
 2. AGAIN  
 3. BAD  
 4. BATHROOM  
