@@ -206,10 +206,10 @@ The UI was designed to work across multiple mobile screen sizes using:
 * Flexible / Expanded widgets
 * Responsive spacing techniques
 
-Configuration & Setup
+## Configuration & Setup
 Prerequisites
 
-Flutter SDK ^3.11.0
-Dart SDK ^3.11.0
-Android Studio or VS Code
-A running instance of the Ishara Backend API
+* Flutter SDK ^3.11.0
+* Dart SDK ^3.11.0
+* Android Studio or VS Code
+* A running instance of the Ishara Backend API
