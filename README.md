@@ -85,7 +85,7 @@ To test the AI Engine and simulate real inputs, we have provided sample testing 
 
 * **AI Models & Weights (Google Drive):** [Download Here](https://drive.google.com/drive/folders/1gA8WJQbAjMX5PAX0Fa-nUOYYWrGePYdl?usp=drive_link)
 * **AI Testing Sample Data (Google Drive):** [https://drive.google.com/drive/folders/187nqxSs5kAV38IVJMO8evVC51BbPjx-L]
-* **App APK (Download & Test):** [Download APK](https://drive.google.com/file/d/1YC2bFSioGLBTUhhEOziVkcIlIrBwRRCA/view)
+* **App APK (Download & Test):** [Download APK](https://drive.google.com/file/d/1tKnrDYMaWrN5wETEBfYjjgHh2kkicQNo/view?usp=sharing)
 
 ---
 
